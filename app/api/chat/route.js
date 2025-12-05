@@ -29,6 +29,9 @@ export async function POST(req) {
       reply: data.choices?.[0]?.message?.content || "No response from AI."
     });
   } catch (error) {
-    return NextResponse.json({ error: error.message }, { status: 500 });
+    return NextResponse.json(
+      { error: error.message },
+      { status: 500 }
+    );
   }
 }
