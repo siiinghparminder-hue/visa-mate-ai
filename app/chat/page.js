@@ -6,7 +6,7 @@ export default function ChatPage() {
   const [messages, setMessages] = useState([
     {
       from: "ai",
-      text: "Hello! I am Visa Mate AI Assistant. How can I help you today?"
+      text: "Hello! I am VisaPilot AI Assistant. I can help you with visas, PR, documentation, and eligibility. What would you like to do today?"
     }
   ]);
   const [input, setInput] = useState("");
