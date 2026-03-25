@@ -73,7 +73,7 @@ export default function ChatPage() {
         {/* Header */}
         <div className="bg-blue-700 text-white px-6 py-4 rounded-t-xl flex items-center justify-between">
           <h1 className="text-lg font-semibold">
-            Visa Mate AI Assistant <span className="ml-1">💬</span>
+            VisaPilot AI Assistant 💬 <span className="ml-1">💬</span>
           </h1>
         </div>
 
